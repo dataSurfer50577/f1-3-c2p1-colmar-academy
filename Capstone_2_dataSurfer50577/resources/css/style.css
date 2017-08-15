@@ -1,0 +1,273 @@
+/* dataSurfer50577 */
+
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  display: inline-block;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+/* Arrangement */
+
+.article_title,
+.film  {
+  width: 60%;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.article_title img,
+.film video {
+  width: 100%;
+}
+
+.side_bar_two {
+  width: 40%;
+  padding-top: 1rem;
+}
+
+#article,
+#thesis_exhibit .container {
+  align-items: flex-start;
+}
+
+.side_bar .container img,
+.side_bar_two .container img  {
+  width: 35%;
+  padding: 1rem;
+}
+
+.side_bar_two_info a {
+  color: blue;
+}
+
+.grey {
+  background-color: #b1c4d1; /* ALSO: rgb(177, 196, 209)  WAS: #cee2ef */
+}
+
+/* Section titles and sub titles */
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+}
+
+/* h4 {
+  font-weight: normal;
+}
+
+Might not need this, since it was changed to <p> */
+
+/* Header */
+
+b {
+  font-weight: 900;
+}
+
+
+.h_desktop { /* location for Modile section */
+  justify-content: space-between;
+  height: 4rem;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 1.5rem;
+  display: flex;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 1em;
+}
+
+nav a:hover { /* highlights the navigation menu items */
+  font-weight: bold;
+  color: #0c0338; /* same as start button, WAS: blue; */
+}
+
+.container span:first-child {
+  font-weight: bold;
+}
+
+.container span:last-child {
+  font-weight: lighter;
+}
+
+
+/* Main Banner - Section 1 */
+
+#main_banner {
+  background-color: #b1c4d1; /* IS: light grey baby blue */
+  padding-top: 4rem;
+  align-items: center;
+}
+
+#main_banner .article_title {
+  padding-right: 2.5rem;
+}
+
+.start_button {
+  color: white;
+  background-color: #0c0338; /* IS: deep blue */
+  display: block;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  border-radius: 25px;
+  transition-duration: 0.7s;
+}
+
+.start_button:hover { /* changes the start_button */
+  color: #e2aaaa; /* IS: light red */
+  background: #5b2222; /* Brick red */
+}
+
+
+/* Info */
+
+#article h2 {
+  text-align: left;
+  padding-bottom: 1.5rem;
+}
+
+#article .article_title {
+  border-right: 1px solid #dbdbdb; /* creates a line barrier - Light gray on the blue scale */
+}
+
+.side_bar .container {
+  transition-duration: 0.2s;
+}
+
+.side_bar .container:hover{
+  background-color: #6090c4; /* aqua marine */
+  color: white;
+}
+
+/* Department Courses */
+
+#campus_courses {
+  background-color: #cee2ef; /* light grey baby blue */
+  padding-bottom: 2rem;
+}
+
+#campus_courses .container {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.department-courses {
+  width: 25%;
+  margin: 1rem 1rem;
+  height: 400px;
+  max-height: 400px;
+  background-color: white;
+  transition-duration: 900ms;
+}
+
+.department-courses:hover {
+  background-color: #5b2222; /* Brick red, WAS: #6090c4; */
+  color: white;
+  }
+
+.course_titles {
+  padding: 1rem;
+}
+
+.department-courses img {
+  width: 100%;
+}
+
+.course_titles h4 {
+  padding-top: 0;
+}
+
+/* Thesis Exhibit */
+
+#thesis_exhibit .side_bar_two .container {
+  align-items: center;
+}
+
+#thesis_exhibit .grey {
+  margin-top: 1rem;
+}
+
+.side_bar_two .container {
+  transition-duration: 0.2s;
+}
+
+.side_bar_two .container:hover{
+  background-color: #6090c4; /* aqua marine */
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  justify-content: space-between;
+  border-top: 1px solid #dbdbdb; /* creates a line barrier - Light gray on the blue scale */
+  height: 100px;
+}
+
+/* h6 {
+  margin: 0 1.5rem;
+}
+*/
+
+footer ul {
+  margin-right: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  border; .5rem;
+}
